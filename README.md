@@ -25,6 +25,11 @@ Debian-based:
     sudo apt-get update
     sudo apt-get install rcm
 
+Fedora 22-28:
+
+    sudo dnf copr enable seeitcoming/rcm
+    sudo dnf install rcm
+    
 Korora:
 
   64-bit Korora 23:
@@ -41,11 +46,6 @@ Korora:
 OpenBSD (-current):
 
     doas pkg_add rcm
-
-Fedora 22, 23, 24, 25:
-
-    sudo dnf copr enable seeitcoming/rcm
-    sudo dnf install rcm
 
 FreeBSD:
 
